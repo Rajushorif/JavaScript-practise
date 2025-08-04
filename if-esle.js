@@ -12,7 +12,9 @@ function max(a, b) {
 console.log(max(30, 20));
 // Output: 30
 
-// ternary operator example
+// ternary operator example-----The ternary operator in JavaScript is a compact way to write conditional logic.
+//  It’s called ternary because it takes three parts: condition ? valueIfTrue : valueIfFalse
+
 let age = 18;
 let adultAge = age >= 18 ? "Adult" : "Child";
 console.log(adultAge);
@@ -24,8 +26,24 @@ if (age >= 18) {
   result = "Child";
 }
 console.log(result);
-
 // Output: Adult
+let score = 5;
+let grade = score >= 80 ? "Excellent" : "Try Again";
+console.log(grade);
+// Output: Excellent
+// if-else example
+if (score >= 80) {
+  result = "Excellent";
+} else {
+  result = "Try Again";
+}
+console.log(result);
+// same but different way
+console.log(isLandscape(800, 600));
+function isLandscape(width, height) {
+  return width > height; // here i don't need to called ? true : false because the return value is already boolean
+}
+
 // switch case example
 // let day = 3;
 // switch (day) {
@@ -56,3 +74,7 @@ console.log(result);
 //         console.log("Invalid day");
 // }
 // Output: Wednesday
+// exercise---5
+function output = fuzzBuzz(false){
+
+};
